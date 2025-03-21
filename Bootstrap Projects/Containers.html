@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: rgb(231, 48, 170);
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+.footer {
+    background-color: #10020997;
+    color: rgb(223, 221, 215);
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 style="color: rgba(111, 128, 52, 0.875);"></h1>
+            <h1>Welcome to My Website </h1>
+        </header>
+        <main class="content">
+            <section class="section">
+                <h2>About Us</h2>
+                <p>This is a section with some content inside the container.</p>
+            </section>
+            <section class="section">
+                <h2>Our Services</h2>
+                <p>Details about services offered by the website.</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2025 My Website</p>
+        </footer>
+    </div>
+</body>
+</html>
